@@ -39,10 +39,10 @@ Marking scheme:
 
 | Description | Marks |
 |-------------|-------|
-| Write a class ```GDP``` with appropriate fields, default and parameterised constructors that encapsulated data from a singe row in the file.| 15 marks |
-| Create and instantiate a global ArrayList that can store instances of the class you created. | 5 marks |
-| Write and call a method ```loadData``` that loads the data from the file into the ArrayList | 20 marks |
-| Write and call a method ```drawLineGraph``` that draws the blue line graph of the GDP amount. You should leave a border either side and at the top and bottom of the screen. Also the lines should fit exactly into the size of the graph. | 30 marks |
-| Implement the functionality so that hovering the mouse over the graph draws the red line, the red circle on the graph and prints the year and GDP amount as illustrated in the YouTube video.| 30 marks |
+| Write a class ```GDP``` with appropriate fields, default and parameterised constructors that encapsulates data from a singe row in the file.| 15 |
+| Create and instantiate a global ArrayList that can store instances of the class you created. | 5 |
+| Write and call a method ```loadData``` that loads the data from the file into the ArrayList | 20 |
+| Write and call a method ```drawLineGraph``` that draws the blue line graph of the GDP amount. You should leave a border either side and at the top and bottom of the screen. Also the lines should fit exactly into the size of the graph. | 30 |
+| Implement the functionality so that hovering the mouse over the graph draws the red line, the red circle on the graph and prints the year and GDP amount as illustrated in the YouTube video.| 30 |
 
 When you are done, zip up your sketch and upload everything to webcourses. 
