@@ -16,10 +16,21 @@ float min, max;
 // Question 3
 void loadData()
 {
+  data.clear();
+  
   String[] lines = loadStrings("gdp.csv");
   for(String line: lines)
   {
     GDP gdp = new GDP(line);
+    data.add(gdp);
+  }
+  data.clear();
+  // A better way to do the above!
+  Table t = loadTable("gdp.csv");
+  for(int i = 0 ; i < t.getRowCount(); i ++)
+  {
+    TableRow row = t.getRow(i);
+    GDP gdp = new GDP(row);
     data.add(gdp);
   }
 }
